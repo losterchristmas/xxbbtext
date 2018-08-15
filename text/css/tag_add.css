@@ -1,0 +1,44 @@
+body
+{
+    background: #fff;
+}
+
+.container
+{
+    background: #fff;
+}
+#mode
+{
+    border-bottom: solid 1px #e5e5e5;
+    padding: 2% 0;
+    margin-left:2% 
+}
+a
+{
+    text-decoration: none;
+    color: #324455;
+}
+.mian p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #324455;
+}
+.mode
+{
+    border-bottom: solid 1px #e5e5e5;
+    padding: 4% 0;
+    margin-left:2% 
+}
+.mode img
+{
+    transform: translate(0,18%);
+}
+.mode p
+{
+    display: inline-block;
+    font-size: 18px;
+}
+.cus_name{
+    margin-top: 4%;
+    font-size: 18px;
+}

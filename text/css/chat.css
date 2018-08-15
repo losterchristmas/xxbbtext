@@ -1,0 +1,284 @@
+body
+{
+    background: #f0eff4;
+}
+.container{
+    background: #f0eff4;
+    margin: 0;
+}
+.hander
+{
+    margin:2.5% 2.5% 1px 2.5%;
+    width: 95%;
+    background: white; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.hander_block{
+    
+    width: 25%;
+    height:110px;
+}
+#hander_block{
+    margin-top:16%; 
+}
+a
+{
+    text-decoration: none;
+    color: #567b96;
+
+}
+.time_p{
+    color: #8b8b8b;
+    height: 28px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+.hander_block p
+{
+    margin-top: 0px;
+    font-size: 12px;
+    text-align: center;
+    color: #8b8b8b;
+}
+.hander_block a{
+    display: inline-block;
+    line-height: 24px;
+    font-size: 16px;
+}
+.messager_transfrom
+{
+    padding: 0 7px;
+    border: 2px solid #567b96;
+    border-radius:5px; 
+}
+.time_year_p
+{
+    text-align: center;
+    color: #f5f5f5;
+    background: #3b6ead;
+    margin: 0 5px;
+    box-shadow: 0px 8px 13px #888888;
+}
+.time_day_p
+{
+    text-align: center;
+    color: #414e57;
+    background: #f5f5f5;
+    padding: 10% 0;
+    margin: 0 5px;
+    font-weight: 600;
+    box-shadow: 0px 8px 13px #888888;
+}
+.time_p1
+{
+    padding-top: 15%;
+    color: #8b8b8b;
+    margin-top: 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.success
+{
+    position: relative;
+    margin-left:20%; 
+    margin-bottom:12%; 
+    width: 15px;
+    height: 15px;
+    padding: 20%;
+    border: 2px solid #3b6ead;
+    border-radius:50px; 
+    font-weight: 600;
+}
+.success p 
+{
+    position: absolute;
+    width: 34px;
+    transform: translate(-10px,-2px);
+}
+.hander_label
+{
+    margin: 2px 2.5%;
+    width: 95%;
+    height: 46px;
+    background: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.hander_label a
+{
+    width: 30%;
+    text-align: center;
+    margin: 10px 0;
+}
+.hander_label p
+{
+    margin: 0 5px;
+    overflow: hidden; /*自动隐藏文字*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    white-space: nowrap;/*强制不换行*/
+    /* width: 20em;不允许出现半汉字截断 */
+}
+#p0{
+
+    color: #47dfcc;
+    border-radius: 5px;
+    background: #e1f8f2;
+    font-size: 14px;
+    padding: 2px;
+}
+#p1{
+    color: #5eb7fe;
+    border-radius: 5px;
+    background: #e7f4fc;
+      font-size: 14px;
+    padding: 2px;
+}
+#p2{
+    color: #febd87;
+    border-radius: 5px;
+    background: #fef6eb;
+    font-size: 14px;
+    padding: 2px;
+}
+.Settings_img
+{
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.mian_line
+{
+    margin-top:3%; 
+    width: 100%;
+    background: white; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.main_kinds
+{
+    text-align: center;
+}
+.main_kinds p
+{
+    display: inline-block;
+    color: #3b6ead;
+    padding: 10px 0;
+    border-bottom:2px solid #3b6ead; 
+}
+.footer
+{
+position: fixed;
+bottom: 0;
+width: 100%;
+background: #fff;
+background: white; 
+flex-direction: row;
+flex-wrap: wrap;
+display: flex;
+}
+.footer_content 
+{
+    width: 50%;
+    text-align: center;
+    line-height: 40px;
+
+}
+.footer_content_p 
+{
+    border-left:1px solid #8b8b8b; 
+}
+.main
+{
+    margin-top: 230px;
+    margin-bottom:40px; 
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.mainer
+{
+    width: 90%;
+    height: 93px;
+    border: 1px #e2e1e6 solid;
+    border-radius: 10px;
+    background: #f7f6fb;
+    margin: 5% 5%;
+}
+.mainer_img
+{
+    width: 29%;
+    height: 90px;
+
+    float: left;
+}
+.mian_line_a
+{
+    width: 50%
+}
+
+.mainer_img img
+{
+    margin: 22px 0  0 20%;
+    border-radius: 30px;
+}
+.mainer_p
+{
+    width: 60%;
+    height: 105px;
+    /* display: inline-block;
+    position: absolute; */
+    float: left;
+}
+.mainer_p p
+{
+    font-size: 14px;
+    color: #38424e;
+    position: relative;
+    top: 44%;
+    margin-top: -21px;
+}
+.mainer_right
+{
+    width: 10%;
+    float: right;
+    margin-top: 39px;
+}
+.fiexd
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background: #f0eff4;
+}
+.time {
+    border-radius: 5px;
+    background: #d3d2d7;
+    width: 130px;
+    height: 25px;
+    position: relative;
+    left: -65px;
+    margin: 3% 0 4% 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+}
+.label{
+    color: #3b6ead;
+}
+.mode
+{
+    margin-bottom:13%;  
+    background: #f0eff4;
+   
+}

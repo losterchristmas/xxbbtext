@@ -1,0 +1,47 @@
+body{
+    background: #efeff4;
+
+}
+img
+{
+    width: 130px;
+    height: 130px;
+}
+.YY_btn
+{
+    border-radius: 90px;
+    background: #5178c1;
+    width: 180px;
+    height: 180px;
+    position: relative;
+    left: 50%;
+    margin-left: -90px;
+    margin-top: 30%;
+    border: 1px solid #5178c1;
+}
+.YY_btn:active
+{
+    background: #41619c;
+}
+.YY_btn_p
+{
+    margin-top: 30%;
+    text-align: center;
+    color: #9e9e9f;
+    font-size: 16px;
+
+}
+.YY_rebtn
+{
+    background: #d0d0d0;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    width: 66px;
+    height: 66px;
+    position: relative;
+    left: 50%;
+    margin-left: -33px;
+    border-radius: 33px;
+    margin-top: 10%;
+}

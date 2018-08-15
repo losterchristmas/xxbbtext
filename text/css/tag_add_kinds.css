@@ -1,0 +1,61 @@
+body{
+ background: #efeff4;   
+}
+.container p,span
+{
+    color: #888888;
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom:#e5e5e5;
+
+}
+.tag_name
+{
+    margin-left:5%;   
+    background: #efeff4; 
+    padding: 2% 0;
+}
+img
+{
+    margin-left: 4%;
+    transform: translate(0,24%);
+}
+.tag_add
+{
+    padding: 2% 0;
+}
+.tag_cus,.tag_input
+{
+  background: #fff;
+  border-bottom: 1px solid #efeff4;
+}
+.tag_add p
+{
+    margin-left: 4%;
+    display:inline-block;
+}
+.tag_cus
+{
+    border-bottom: 1px solid #efeff4;
+}
+.tag_cus_name
+{
+    display: inline-block;
+    margin-left: 5.5%;
+    transform: translate(0,-5%);
+    margin-bottom: 6px;
+}
+.add_kinds
+{
+    background: #fff;
+    padding: 2% 0;
+    border-bottom: 1px solid #efeff4;
+}
+.add_kinds p
+{
+    display: inline-block;
+}
+.choose_border
+{
+    border: #efeff4 solid 30px
+}

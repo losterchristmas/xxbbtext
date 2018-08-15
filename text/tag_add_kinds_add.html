@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/weui.min.css">
+    <link rel="stylesheet" href="css/jquery-weui.css">
+    <link rel="stylesheet" href="css/tag_add_kinds.css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/jquery-weui.js"></script>
+    <title>标签</title>
+</head>
+<style>
+    .borde_new {
+        background: #fff;
+    }
+
+    .borde_old {
+        border: #fff solid 1px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div style="position: fixed;top: 0;width: 100%;z-index: 2;">
+            <p class="tag_name">标签名字</p>
+            <div class="weui-cell" style="background: #fff;border-bottom: 1px solid #efeff4;">
+                <div class="weui-cell__bd">
+                    <input id="tag_add" class="weui-input" type="text" placeholder="设置标签名" style="height: 34px; font-size: 18px;">
+                </div>
+            </div>
+
+            <div class="tag_add" style="background: #efeff4">
+                <p>标签成员(</p>
+                <span id="num">0</span>
+                <p style="margin-left:0 ">)</p>
+            </div>
+
+            <div class="add_kinds" id="add_kinds">
+                <img src="img/new.png" width="20px" height="20px" alt="">
+                <p>添加成员</p>
+            </div>
+        </div>
+
+        <div class="mainer" style="margin: 64% 5% 0 5%;width: 90%;
+        ;position: relative;border-radius: 5px;">
+
+        </div>
+        <div style="margin:50% 0 0 0; width: 100%;background:#efeff4;position: fixed;bottom: 0 ">
+            <a href="javascript:;" id="submit" class="weui-btn weui-btn_primary" style="margin:5% 5% 5% 5%; width: 90%;">保存</a>
+        </div>
+
+    </div>
+    <script src="js/tag_add_kinds_add/tag_add_kinds_add.js"></script>
+</body>
+
+</html>

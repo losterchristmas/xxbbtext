@@ -1,0 +1,98 @@
+body
+{
+    background: #f0eff4;
+}
+.kinds
+{
+    background: #fff;
+    border-bottom: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
+}
+.kinds_1
+{   
+    height: 100px;
+}
+.kinds_border
+{
+    border-bottom: 1px solid #e2e2e2;
+}
+.kinds_left
+{
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+}
+.kinds_right
+{
+    float: right;
+    width: 68%;
+}
+.kinds_right img
+{
+    border:1px solid #d5d5d5;
+    margin: 5%;
+    display: inline-block;
+}
+.kinds_input
+{
+    height: 100%;
+}
+.Turnover_rate {
+    width: 47%;
+    border-right: 1px solid #cacaca;
+    color: #4777c3;
+}
+.border
+{
+    width: 100%;
+    margin-top: 5%;
+    
+}
+.img_p
+{
+    color: #d5d5d5;
+    font-size: 12px;
+    width: 50%;
+    display: inline-block;
+    transform: translate(0%,-50%);
+}
+.btn-width
+{
+    margin-top:5%; 
+    width: 90%;
+}
+.over
+{
+    display: none;
+
+}
+.choose
+{
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+}
+.choose_kinds
+{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background: #fff;
+    z-index: 5;
+}
+.border_botton
+{
+    padding-top:2%; 
+    background:  rgba(0,0,0,0.5);
+
+}
+.choose_kinds p
+{
+    text-align: center;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 2%;
+}

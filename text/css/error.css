@@ -1,0 +1,71 @@
+body{
+    background: #d8d8d8;
+}
+.errorMesg{
+color: #005da2;
+font-size: 36px;
+font-weight: 700;
+text-align: center;
+padding-top:10%; 
+text-shadow: 3px 4px 2px #888888;
+}
+span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.content
+{
+    position: relative;
+    border-radius: 10px;
+    margin: 10%;
+    background: #fff;
+    border: 1px solid #d8d5d5;
+    box-shadow: 6px 8px 13px #888888;
+}
+.tittle{
+ 
+    color:#8a8a8a ;
+    text-align: center;
+    margin-top:16%; 
+}
+.tittle span
+{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    height: 30px;
+    text-shadow: 1px 1px 10px red;
+    /* text-shadow: 2px 3px 2px #888888; */
+}
+.line {
+    margin-top:10%; 
+    position: relative;
+    left:50%;
+    transform: translate( -125px,0);
+    width: 250px;
+    border-bottom: 1px solid #888888;
+}
+.content_p{
+    /* stext-indent:2em; */
+    /* line-height: 32px; */
+    /* letter-spacing: 1px; */
+    color:#8a8a8a ;
+    padding: 10% 10% 40% 13%;
+    /* text-shadow: 1px 1px 10px #888888; */
+    /* font-weight: 500; */
+}
+.content_p p{
+    font-weight: 600;
+}
+
+#message_404{
+    position: absolute;
+    right: 7%;
+    bottom: 13%;
+}
+#people_404{
+    position: absolute;
+    right: 29%;
+    bottom: 1%;
+}
